@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+/**LINKS**/
+a:visited {
+  color:white;
+}
+
+a:active {
+  color:white;
+}
+
+a:link {
+  padding: 3px;
+  color:white;
+}
+
+/**LANDING PAGE**/
+
+.landing {
+  height:100vh;
+}
+
+
+/**TEXT STYLES**/
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+ 
+}
+
+p {
+  color:black;
+  line-height: 25px;
+  padding: 10px;
+  font-size:2em!important;
+}
+
+/**IMAGES**/
+.port {
+  width:100%;
+  object-fit: cover;
+}
+
+.tile img {
+  height:208.13px;
+  width:100%:
+}
+
+/**ELEMENT STYLING**/
+.figure-caption {
+  font-size: 1em;
+}
+
+.jumbotron {
+  background-color:white!important;
+}
+
+ul, li {
+  padding:0;
+  margin:0;
+}
+
+.figure {
+  margin-top: 300px;
+}
+
+.article {
+  padding:50px;
+}
+
+/**NAVIGATION**/
+.nav {
+  margin-top: 40px;
+}
+
+.navrow {
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+.nav li {
+  background-color:black;
+  padding: 10px 15px;
+
+}
+
+.nav a {
+  display:block;
+  font-size:18px;
+  width:100%;
+  
+}
+
+.nav li:hover {
+  background-color:white;
+  text-decoration:none;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  
+}
+
+.nav a:hover {
+  text-decoration:none;
+  color:black;
+}
+
+/**Tour button**/
+
+.ctaTour {
+  margin-top: 100px;
+  height: 705px;
+  background-image: url(http://i.imgur.com/nO8EzmP.png);
+  background-repeat:no-repeat;
+
+}
+
+.ctaTour a {
+  color:#FDB927;
+  font-size: 30px;
+  background-color:#552582;
+  padding-left:10px;
+  padding-right:10px;
+  text-decoration:none;
+}
+
+.ctaTour a:hover {
+  font-weight:bold;
+}
+
+/**SECTION HEADERS**/
+.header {
+  background-color:black;
+  margin-bottom: 150px;
+  margin-top: 200px;
+  height: 200px;
+}
+
+.headerText {
+  margin-top: 70px;
+  color:white;
+  font-size: 2.5em!important;
+ 
+}
+
+.footerrow {
+  height:150px;
+  background-color:purple;
+}
+
+.footerText {
+ margin-top: 55px;
+}
+
+
+
+
+.blockquote span {
+  font-size:1.4m!important;
+  width:300px;
+  height:200x;
+  max-width:100%;
+}
+
+/*****TABLE*****/
+
+table {
+  border:2px solid;
+  font-size: 1.4em;
+}
+
+th {
+    background-color: #552582;
+  color:white;
+}
+
+td {
+    background-color: #FDB927;
+  color:black;
+  font-weight:bold;
+  padding:2px
+}
+
+
+th, td {
+    padding: 10px!important;
+    text-align: center!important;
+}
+
+
+
+/*ARTICLE BORDERS*/
+.blockleft {
+  border-left:solid 2px black;
+}
+
+.blockright {
+  border-right:solid 2px black;
+}
+
